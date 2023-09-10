@@ -1,0 +1,85 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f8f8;
+  background-image: url('./mexican-sauces-spices.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-position: center center; 
+}
+/* .search-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}  */
+.card {
+  width: calc(33.33% - 20px);
+  box-sizing: border-box;
+  text-align: center;
+  margin-top: 20px;
+  margin: 10px;
+  float: left;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+} 
+.card-body {
+  padding: 10px;
+}
+
+.card img {
+  width: 100%;
+  
+  
+}
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; 
+}
+.card:hover {
+  transform: scale(1.05); 
+  transition: transform 0.3s ease; 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
+}
+.form-control {
+  width: 25%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.card img {
+  width: 100%;
+  height: auto;
+  max-height: 224px; /* Limit the image height */
+}
+/* button {
+  background-color: green;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}  */
+.share-button {
+  position: relative;
+color: #0083A3;
+  bottom: 10px; 
+  left: 120px; 
+  cursor: pointer;
+}
+.App{
+  text-align: center;
+}
+/* .btn {
+  width:70px;
+  height: 35px;
+  padding:5px;
+} */
+.d-flex::after {
+  content: '';
+  display: table;
+  clear: both;
+}
