@@ -14,6 +14,8 @@ framework: Bootstrap
 <h3>Features:</h3>
 <li>User-friendly interface</li>
 <li>Share option enables the user to share the recipes</li>
+<li>Watch video redirects to Youtube</li>
+
 
 API used: https://www.themealdb.com/api/json/v1/1/search.php?s=chicken
 
